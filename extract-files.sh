@@ -15,7 +15,7 @@ fi
 set -e
 
 export DEVICE=RMX3461
-export DEVICE_COMMON=sm8350-common
+export DEVICE_COMMON=RMX3461
 export VENDOR=oplus
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
