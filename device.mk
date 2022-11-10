@@ -34,7 +34,7 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Inherit from the common OEM chipset makefile.
-$(call inherit-product, device/oplus/sm8350-common/common.mk)
+$(call inherit-product, device/realme/sm8350-common/common.mk)
 
 # Inherit from the proprietary files makefile.
-$(call inherit-product, vendor/oplus/RMX3360/RMX3360-vendor.mk)
+$(call inherit-product, vendor/realme/RMX3461/RMX3461-vendor.mk)
