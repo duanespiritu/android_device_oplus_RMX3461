@@ -16,6 +16,6 @@ set -e
 
 export DEVICE=RMX3461
 export DEVICE_COMMON=RMX3461
-export VENDOR=oplus
+export VENDOR=realme
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
