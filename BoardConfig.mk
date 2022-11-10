@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/oplus/RMX3461
+DEVICE_PATH := device/realme/RMX3461
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -51,7 +51,7 @@ BOARD_BOOTIMG_HEADER_VERSION := 3
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 BOARD_KERNEL_IMAGE_NAME := Image
 TARGET_KERNEL_CONFIG := lahaina_defconfig
-TARGET_KERNEL_SOURCE := kernel/oplus/RMX3461
+TARGET_KERNEL_SOURCE := kernel/realme/RMX3461
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
 ifeq ($(TARGET_FORCE_PREBUILT_KERNEL),true)
@@ -100,4 +100,4 @@ TW_USE_TOOLBOX := true
 TW_INCLUDE_REPACKTOOLS := true
 
 # Include the proprietary files BoardConfig.
-include vendor/oplus/RMX3360/BoardConfigVendor.mk
+include vendor/realme/RMX3461/BoardConfigVendor.mk
