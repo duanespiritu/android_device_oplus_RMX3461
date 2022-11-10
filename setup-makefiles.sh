@@ -10,6 +10,6 @@ set -e
 
 export DEVICE=RMX3461
 export DEVICE_COMMON=sm8350-common
-export VENDOR=oplus
+export VENDOR=realme
 
 "./../../${VENDOR}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"
