@@ -1,4 +1,4 @@
-#
+P#
 # Copyright (C) 2021-2022 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
@@ -8,8 +8,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from RMX3360 device
-$(call inherit-product, device/oplus/RMX3360/device.mk)
+# Inherit from RMX3461 device
+$(call inherit-product, device/realme/RMX3461/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
